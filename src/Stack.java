@@ -59,6 +59,7 @@ public class Stack {
     }
 
     public int top() {
+        if(size == 0) return -1;
         return stack[size-1];
     }
 }
