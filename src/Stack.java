@@ -25,16 +25,16 @@ public class Stack {
                     push(is.inputInt());
                     break;
                 case "pop":
-                    is.inputIntSbnl(pop());
+                    is.inputIntSbNl(pop());
                     break;
                 case "size":
-                    is.inputIntSbnl(size());
+                    is.inputIntSbNl(size());
                     break;
                 case "empty":
-                    is.inputIntSbnl(empty());
+                    is.inputIntSbNl(empty());
                     break;
                 case "top":
-                    is.inputIntSbnl(top());
+                    is.inputIntSbNl(top());
                     break;
             }
         }

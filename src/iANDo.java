@@ -25,7 +25,7 @@ public class iANDo {
         sb.append(str).append('\n');
     }
 
-    public void inputIntSbnl(int str){
+    public void inputIntSbNl(int str){
         sb.append(str).append('\n');
     }
 }
